@@ -1,0 +1,15 @@
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "browsers": ["chrome > 52"]
+      },
+      "exclude": [
+        "babel-plugin-transform-async-to-generator",
+        "babel-plugin-transform-async-generator-functions",
+        "babel-plugin-transform-async-functions",
+        "babel-plugin-transform-regenerator"
+      ]
+    }]
+  ]
+}

@@ -1,0 +1,15 @@
+body
+  margin 0
+  padding 0
+  overflow hidden
+  background-color black
+  touch-action none
+  canvas
+    width 100vw
+    height 100vh
+    touch-action none
+    image-rendering optimizeSpeed
+    image-rendering -moz-crisp-edges
+    image-rendering -webkit-optimize-contrast
+    image-rendering -o-crisp-edges
+    image-rendering pixelated

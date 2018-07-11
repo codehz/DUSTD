@@ -1,0 +1,7 @@
+dist
+/*.js
+/*.js.map
+jspm_packages
+node_modules
+*.bak
+*.css

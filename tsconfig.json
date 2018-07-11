@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "module": "system",
+    "target": "es2018",
+    "sourceMap": true,
+    "moduleResolution": "classic",
+    "strictNullChecks": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "es6",
+      "es2017"
+    ],
+    "baseUrl": "./jspm_packages",
+    "paths": {
+      "immutable": [
+        "./npm/immutable@3.8.2/dist/immutable"
+      ]
+    },
+    "typeRoots": [
+      "./fix",
+    ],
+    "jsx": "react",
+    "jsxFactory": "UI",
+  },
+  "exclude": [
+    "dist"
+  ]
+}
