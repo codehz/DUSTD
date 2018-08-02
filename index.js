@@ -1,4 +1,4 @@
-System.register(["./assets/maps/mini.png!image", "./BasicUI", "./GameEngine", "./GL", "./global", "./Machine", "./prepare", "./Scene", "./UI"], function (exports_1, context_1) {
+System.register(["./assets/maps/caves.png!image", "./BasicUI", "./GameEngine", "./GL", "./global", "./Machine", "./prepare", "./Scene", "./UI"], function (exports_1, context_1) {
     "use strict";
     var test_png_image_1, BasicUI_1, GameEngine_1, GL_1, global_1, Machine_1, prepare_1, Scene_1, UI_1, mouseHandler, keyHandler;
     var __moduleName = context_1 && context_1.id;
